@@ -11,7 +11,9 @@
 ---
 ## Product search and discovery:
 
-**Fr-004**: User is able to search, filter, and browse items
+**Fr-004**: User is able to search for items in stock <!-- Learn how to automate scrolling through a website -->
+**Fr-005**: User is able to filter items in stock
+**Fr-006**: , and browse items<
 
 ---
 
