@@ -12,7 +12,7 @@
 
 ## User Account management:
 
-### Fr-001: Verifyng if user can register an account <br>
+### Fr-001: Verifying if user can register an account <br>
 
 **Preconditions**:<br> <!-- Use faker for fake test data -->
 User is on the registration page of the website

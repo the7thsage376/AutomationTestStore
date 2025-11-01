@@ -15,7 +15,7 @@ This project is part of my QA upskilling journey and reflects growth in test des
 - Adding items to the cart
 - Checking out
 - Detecting out-of-stock items
-- Validating boundary and edge cases using equivalence partitioning
+- Validating boundary and edge cases using equivalence partitioning and boundary value analysis
 
 **Out-of-Scope:**
 - Payment confirmation and backend transaction validation
@@ -25,7 +25,7 @@ This project is part of my QA upskilling journey and reflects growth in test des
 ## Test Objectives
 
 Verify that the user can:
-- [ ] Register and log in to an account
+- [x] Register and log in to an account
 - [ ] Search for items in the store
 - [ ] Add items to the cart
 - [ ] Detect when an item is out of stock
@@ -60,6 +60,7 @@ This project uses automated UI testing with Selenium and Pytest to validate func
 - Test Cases  
 - Selenium Test Scripts  
 - Test Execution Report (HTML)
+- Screenshots
 
 ---
 
