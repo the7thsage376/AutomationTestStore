@@ -180,5 +180,78 @@ User is logged into their account
 
  ## Input Validation
 
- ### Fr-016: 
+ ### Fr-016: Verify if error message is displayed when login name and/or email address are incorrect
+ **Preconditions**:<br>
+**Steps To Reproduce**:
+**Expected Result**:<br>
+**Actual Result**:
+**Environment used**: Microsoft Edge, Chrome
+**Status**: To be executed<br>
+**Evidence**:![alt text](relative/path/to/screenshot)
+
+### Fr-017: Verify if error message is displayed when login name and email address length exceed 50 characters
+**Preconditions**:<br>
+**Steps To Reproduce**:
+**Expected Result**:<br>
+**Actual Result**:
+**Environment used**: Microsoft Edge, Chrome
+**Status**: To be executed<br>
+**Evidence**:![alt text](relative/path/to/screenshot)
+
+### Fr-018: Verify if error message is displayed when login name and email address length are < 8 characters
+**Preconditions**:<br>
+**Steps To Reproduce**:
+**Expected Result**:<br>
+**Actual Result**:
+**Environment used**: Microsoft Edge, Chrome
+**Status**: To be executed<br>
+**Evidence**:![alt text](relative/path/to/screenshot)
+
+### Fr-019: Verify if error message is displayed when login name/email textbox is empty
+**Preconditions**:<br>
+**Steps To Reproduce**:
+**Expected Result**:<br>
+**Actual Result**:
+**Environment used**: Microsoft Edge, Chrome
+**Status**: To be executed<br>
+**Evidence**:![alt text](relative/path/to/screenshot)
+
+### Fr-020: Verify if error message is displayed when email address format is incorrect(e.g not "@" symbol)
+**Preconditions**:<br>
+**Steps To Reproduce**:
+**Expected Result**:<br>
+**Actual Result**:
+**Environment used**: Microsoft Edge, Chrome
+**Status**: To be executed<br>
+**Evidence**:![alt text](relative/path/to/screenshot)
+
+
+## Boundary-Value Testing
+
+### Fr-021: Verify if login name and email accept inputs that are exactly 8 characters
+**Preconditions**:<br>
+**Steps To Reproduce**:
+**Expected Result**:<br>
+**Actual Result**:
+**Environment used**: Microsoft Edge, Chrome
+**Status**: To be executed<br>
+**Evidence**:![alt text](relative/path/to/screenshot)
+
+### Fr-022: Verify if login name and email accept inputs that are exactly 50 characters
+**Preconditions**:<br>
+**Steps To Reproduce**:
+**Expected Result**:<br>
+**Actual Result**:
+**Environment used**: Microsoft Edge, Chrome
+**Status**: To be executed<br>
+**Evidence**:![alt text](relative/path/to/screenshot)
+
+### Fr-023: Verify if login name and email inputs accept exactly 7 and 51 characters
+**Preconditions**:<br>
+**Steps To Reproduce**:
+**Expected Result**:<br>
+**Actual Result**:
+**Environment used**: Microsoft Edge, Chrome
+**Status**: To be executed<br>
+**Evidence**:![alt text](relative/path/to/screenshot)
 
