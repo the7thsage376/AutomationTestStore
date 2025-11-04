@@ -21,5 +21,3 @@ venv/Scripts/activate
 - Page Object Model(POM)
 
 
-## this is annoying
-
