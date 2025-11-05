@@ -69,25 +69,31 @@ User is logged into their account
 **Evidence**:![Search Bar Screenshot](Selenium/Screenshots/searchbar.png)
 
 ### Fr-005: Verify if user is able to filter items in stock
-**Preconditions**:<br>
+**Preconditions**: User is logged in<br>
 **Steps To Reproduce**:
-**Expected Result**:<br>
-**Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
-**Status**: To be executed<br>
-**Evidence**:![alt text](relative/path/to/screenshot)
+1. Select a category(e.g books)
+2. Click on the "Sort by" dropdown and select from either Price high > low, or any other option displayed
+**Expected Result**:Item is filtered according to criteria<br>
+**Actual Result**: Items are successfully filtered based on selected criteria
+**Environment used**: Microsoft Edge,
+**Status**: Passed<br>
+**Evidence**:![filter screenshot](Selenium/Screenshots/filter.png)
 
 
 ## Cart Operation
 
 ### FR-006: Verify if user is able to add or remove items in cart
-**Preconditions**:<br>
+**Preconditions**:User is logged in<br>
 **Steps To Reproduce**:
+1. Search for any iten
+2. Add the item into cart
+3. Remove the item from the cart
 **Expected Result**:<br>
 **Actual Result**:
 **Environment used**: Microsoft Edge, Chrome
 **Status**: To be executed<br>
-**Evidence**:![alt text](relative/path/to/screenshot)
+**Evidence**:![AddItem screenshot](Selenium/Screenshots/addItem.png)
+**Evidence**:![RemoveItem](Selenium/Screenshots/removeItem.png)
 
 ### Fr-007: Verify if user is able to select desired amount of item in stock
 **Preconditions**:<br>
@@ -98,7 +104,7 @@ User is logged into their account
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
-
+---
 ## Stock Validation
 
 ### Fr-008: Verify if user can detect when an item is out of stock <!-- User better wording for this -->
@@ -128,7 +134,7 @@ User is logged into their account
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
-
+---
 ## Currency Conversion
 
 ### Fr-011: Verify if user is able to switch between currencies
@@ -156,7 +162,7 @@ User is logged into their account
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
+**Environment used**: Microsoft Edge, Chrome <br>
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
@@ -165,7 +171,7 @@ User is logged into their account
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
+**Environment used**: Microsoft Edge, Chrome<br>
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
@@ -174,10 +180,11 @@ User is logged into their account
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
+**Environment used**: Microsoft Edge, Chrome<br>
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
+---
  ## Input Validation
 
  ### Fr-016: Verify if error message is displayed when login name and/or email address are incorrect
@@ -185,7 +192,7 @@ User is logged into their account
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
+**Environment used**: Microsoft Edge, Chrome<br>
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
@@ -194,7 +201,7 @@ User is logged into their account
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
+**Environment used**: Microsoft Edge, Chrome<br>
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
@@ -203,7 +210,7 @@ User is logged into their account
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
+**Environment used**: Microsoft Edge, Chrome<br>
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
@@ -212,7 +219,7 @@ User is logged into their account
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
+**Environment used**: Microsoft Edge, Chrome<br>
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
@@ -221,11 +228,11 @@ User is logged into their account
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
+**Environment used**: Microsoft Edge, Chrome<br>
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
-
+---
 ## Boundary-Value Testing
 
 ### Fr-021: Verify if login name and email accept inputs that are exactly 8 characters
@@ -233,7 +240,7 @@ User is logged into their account
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
+**Environment used**: Microsoft Edge, Chrome<br>
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
@@ -242,7 +249,7 @@ User is logged into their account
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
+**Environment used**: Microsoft Edge, Chrome<br>
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
@@ -251,7 +258,7 @@ User is logged into their account
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
+**Environment used**: Microsoft Edge, Chrome<br>
 **Status**: To be executed<br>
 **Evidence**:![alt text](relative/path/to/screenshot)
 
