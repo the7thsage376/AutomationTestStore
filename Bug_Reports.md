@@ -3,19 +3,25 @@
 **Title**:  
 ---
 **Description**:
+
 **Preconditions**:<br>  
-**Steps To Reproduce**:<br>  
-**Expected Result**:<br>  
-**Actual Result**:<br> 
+
+**Steps To Reproduce**:<br>
+
+**Expected Result**:<br>
+
+**Actual Result**:<br>
+
 **Environment used**:<br>  
 - Browser: Microsoft Edge, Chrome  
 - OS: Windows 11  
 - Device: Desktop/Laptop
-**Network used**:3G, 4G, Wifi<br>  
-**Status**:<br>  
-_To be executed / Confirmed / Won’t fix / Closed_<!-- Use whichever one best describes the situation -->
-**Evidence**:<br>  
-![alt text](relative/path/to/screenshot)
+
+**Network used**:3G, 4G, Wifi<br>
+
+**Status**:<br>
+
+**Evidence**:![alt text](relative/path/to/screenshot)
 
 ---
 
@@ -46,4 +52,35 @@ When adding the paperback version of Paper Towns by John Green to the cart and r
 **Status**:Confirmed
 
 **Evidence**:![Many books screenshot](Selenium/Screenshots/books.png)
+
+
+---
+## Bug 002
+
+**Title**:  Store item has unlimited stock
+---
+**Description**:
+Seaweed conditioner exceeds realistic stock 
+**Preconditions**:user is logged in<br>  
+
+**Steps To Reproduce**:
+1. Add the item "Seaweed conditioner" into cart
+2. Increase the quantity excessively
+3. Update the cart
+
+**Expected Result**:Item stock displays an error message "Stock exceeded"<br>
+
+**Actual Result**: no error message is displayed and stock price is adjusted <br>
+
+**Environment used**:<br>  
+- Browser: Microsoft Edge, Chrome  
+- OS: Windows 11  
+- Device: Desktop/Laptop
+
+**Network used**:3G, 4G, Wifi<br>
+
+**Status**:Confirmed<br>
+  
+**Evidence**:![Invalid stock screenshot](Selenium/Screenshots/invalidStock.png)
+**Related Test Case**:[Fr-009](/Test_cases.md#fr-009-verify-if-user-is-not-able-to-select-stock-that-exceeds-the-max-limit-in-stock)
 

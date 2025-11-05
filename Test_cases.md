@@ -88,42 +88,48 @@ User is logged into their account
 1. Search for any iten
 2. Add the item into cart
 3. Remove the item from the cart
-**Expected Result**:<br>
-**Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
-**Status**: To be executed<br>
+**Expected Result**:User is able to add and remove items in cart<br>
+**Actual Result**: User successfuly added and removed items from cart
+**Environment used**: Microsoft Edge
+**Status**: Passed <br>
 **Evidence**:![AddItem screenshot](Selenium/Screenshots/addItem.png)
 **Evidence**:![RemoveItem](Selenium/Screenshots/removeItem.png)
 
 ### Fr-007: Verify if user is able to select desired amount of item in stock
-**Preconditions**:<br>
+**Preconditions**:User is logged in<br>
 **Steps To Reproduce**:
-**Expected Result**:<br>
-**Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
-**Status**: To be executed<br>
-**Evidence**:![alt text](relative/path/to/screenshot)
+1. Add an item to the cart
+2. Change the quantity of the item to any amount
+3. Click on "Update" to adjust the overall price
+**Expected Result**: User is able to change the quantity of the item<br>
+**Actual Result**: User successfully changed the quantity of item
+**Environment used**: Microsoft Edge
+**Status**: Passed<br>
+**Evidence**:![Item Price Screenshot](Selenium/Screenshots/itemPrice.png)
 
 ---
 ## Stock Validation
 
-### Fr-008: Verify if user can detect when an item is out of stock <!-- User better wording for this -->
-**Preconditions**:<br>
+### Fr-008:Verify that the user is able to identify when a product is marked as out of stock.
+**Preconditions**:User is logged in<br>
 **Steps To Reproduce**:
-**Expected Result**:<br>
-**Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
-**Status**: To be executed<br>
-**Evidence**:![alt text](relative/path/to/screenshot)
+1. Search for an item
+**Expected Result**:Item(s) should display text when stock is unavalable<br>
+**Actual Result**: Item(s) successfully display "Out Of Stock" text
+**Environment used**: Microsoft Edge
+**Status**: Passed <br>
+**Evidence**:![Stock Screenshot](Selenium/Screenshots/Stock.png)
 
-### Fr-009: Verify if user is not able to select stock that exceeds the max limit per customer
-**Preconditions**:<br>
+### Fr-009: Verify if user is not able to select stock that exceeds the max limit in stock
+**Preconditions**:User is logged in<br>
 **Steps To Reproduce**:
-**Expected Result**:<br>
-**Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
-**Status**: To be executed<br>
-**Evidence**:![alt text](relative/path/to/screenshot)
+1. Add item to cart
+2. Increase the quantity of the item to an excessive amount
+**Expected Result**:Error message stating insufficent stock is displayed<br>
+**Actual Result**: Error message is displayed
+**Environment used**: Microsoft Edge
+**Status**: Passed<br>
+**Evidence**:![Stock limit screenshot](Selenium/Screenshots/stockLimit.png)
 
 ### Fr-010: Verify if user can select stock that's below the min limit per customer
 **Preconditions**:<br>
