@@ -84,3 +84,28 @@ Seaweed conditioner exceeds realistic stock
 **Evidence**:![Invalid stock screenshot](Selenium/Screenshots/invalidStock.png)
 **Related Test Case**:[Fr-009](/Test_cases.md#fr-009-verify-if-user-is-not-able-to-select-stock-that-exceeds-the-max-limit-in-stock)
 
+
+**Title**:  Website is down
+---
+**Description**:
+The auomationteststore website is down, experiencing server connection issues
+
+**Preconditions**: User is on the automation test store website<br>  
+
+**Steps To Reproduce**:<br>
+
+**Expected Result**: Website is functional and responsive<br>
+
+**Actual Result**:Website page displays a database connection error<br>
+
+**Environment used**:<br>  
+- Browser: Microsoft Edge, Chrome  
+- OS: Windows 11  
+- Device: Desktop/Laptop
+
+**Network used**:3G, 4G, Wifi<br>
+
+**Status**:Confirmed <br>
+
+**Evidence**:![Website down screenshot](Selenium/Screenshots/websiteDown.png)
+

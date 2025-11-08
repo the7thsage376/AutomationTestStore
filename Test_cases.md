@@ -132,7 +132,7 @@ User is logged into their account
 **Evidence**:![Stock limit screenshot](Selenium/Screenshots/stockLimit.png)
 
 ### Fr-010: Verify if user can select stock that's below the min limit per customer
-**Preconditions**:<br>
+**Preconditions**: User is logged in to website<br>
 **Steps To Reproduce**:
 **Expected Result**:<br>
 **Actual Result**:
