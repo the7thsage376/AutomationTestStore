@@ -105,7 +105,7 @@ The auomationteststore website is down, experiencing server connection issues
 
 **Network used**:3G, 4G, Wifi<br>
 
-**Status**:Confirmed <br>
+**Status**:Resolved <br>
 
 **Evidence**:![Website down screenshot](Selenium/Screenshots/websiteDown.png)
 

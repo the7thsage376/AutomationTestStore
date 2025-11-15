@@ -134,43 +134,53 @@ User is logged into their account
 ### Fr-010: Verify if user can select stock that's below the min limit per customer
 **Preconditions**: User is logged in to website<br>
 **Steps To Reproduce**:
-**Expected Result**:<br>
-**Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
-**Status**: To be executed<br>
-**Evidence**:![alt text](relative/path/to/screenshot)
+1. Select an Item
+2. Change it's quantity from one to zero
+3. Add to cart
+**Expected Result**: Nothing is displayed once in cart, or an error is displayed<br>
+**Actual Result**: Nothing is displayed in cart
+**Environment used**: Microsoft Edge
+**Status**: Passed<br>
+**Evidence**:![empty cart screenshot](Selenium/Screenshots/emptyCart.png)
 
 ---
 ## Currency Conversion
 
 ### Fr-011: Verify if user is able to switch between currencies
-**Preconditions**:<br>
+**Preconditions**:User is logged in<br>
 **Steps To Reproduce**:
-**Expected Result**:<br>
-**Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
-**Status**: To be executed<br>
-**Evidence**:![alt text](relative/path/to/screenshot)
+1. Navigate to the home page
+2. Change the currency from US dollar to pound sterling
+**Expected Result**:Prices of items change<br>
+**Actual Result** Prices of listed items change successfully:
+**Environment used**: Microsoft Edge
+**Status**: Passed<br>
+**Evidence**:![currency conversion](Selenium/Screenshots/currencyconversion.png)
 
-### Fr-012: Verify if price of item is changed when currency is changed <!-- Change wording -->
-**Preconditions**:<br>
-**Steps To Reproduce**:
-**Expected Result**:<br>
-**Actual Result**:
-**Environment used**: Microsoft Edge, Chrome
-**Status**: To be executed<br>
-**Evidence**:![alt text](relative/path/to/screenshot)
+### Fr-012: Verify if price of item updates when currency is changed
 
-## Checkout Process
+**Preconditions**: Currency was already changed in the previous test case (Fr-011), affecting item price display.<br>
+**Steps To Reproduce**:  
+1. Navigate to the item page without resetting the currency.  
+2. Observe the displayed price.
+**Expected Result**: Item price should reflect the selected currency.<br>
+**Actual Result**: Price was already updated due to previous test case execution.
+**Environment used**: Microsoft Edge
+**Status**: Skipped<br>
+**Evidence**:![currency conversion](Selenium/Screenshots/currencyconversion.png)
+
+## Checkout Process<>
 
 ### Fr-013: Verify if user can review items in cart
-**Preconditions**:<br>
+**Preconditions**:User is logged in<br>
 **Steps To Reproduce**:
-**Expected Result**:<br>
-**Actual Result**:
-**Environment used**: Microsoft Edge, Chrome <br>
-**Status**: To be executed<br>
-**Evidence**:![alt text](relative/path/to/screenshot)
+1. Add an item to the cart
+1. Go to the cart
+**Expected Result**: User is able to see what is inside the cart<br>
+**Actual Result**: User is able to see what's inside the cart
+**Environment used**: Microsoft Edge<br>
+**Status**: Passed<br>
+**Evidence**:![currency conversion screenshot](Selenium/Screenshots/currencyconversion.png)
 
 ### Fr-014: Verify if user can enter their address for item delivery
 **Preconditions**:<br>
@@ -182,16 +192,19 @@ User is logged into their account
 **Evidence**:![alt text](relative/path/to/screenshot)
 
 ### Fr-015: Verify if user is able to checkout
-**Preconditions**:<br>
-**Steps To Reproduce**:
-**Expected Result**:<br>
-**Actual Result**:
-**Environment used**: Microsoft Edge, Chrome<br>
-**Status**: To be executed<br>
-**Evidence**:![alt text](relative/path/to/screenshot)
 
+**Preconditions**:Checkout functionality is not included in the current test scope or environment setup<br>
+**Steps To Reproduce**:
+1. Add an item to the cart
+2. Proceed to checkout
+3. Attempt to complete the purchase
+**Expected Result**:User should be able to complete the checkout process successfully<br>
+**Actual Result**:Checkout flow not available; functionality is out of scope for this test cycle<br>
+**Environment used**: Microsoft Edge, Chrome
+**Status**: Skipped<br>
+**Evidence**: ![alt text](relative/path/to/screenshot)
 ---
- ## Input Validation
+ ## Input Validation <!-- Automate! -->
 
  ### Fr-016: Verify if error message is displayed when login name and/or email address are incorrect
  **Preconditions**:<br>
@@ -239,7 +252,7 @@ User is logged into their account
 **Evidence**:![alt text](relative/path/to/screenshot)
 
 ---
-## Boundary-Value Testing
+## Boundary-Value Testing <!-- Automate! -->
 
 ### Fr-021: Verify if login name and email accept inputs that are exactly 8 characters
 **Preconditions**:<br>
